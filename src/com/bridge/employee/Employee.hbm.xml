@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ <!-- 员工信息字段配置信息 -->
+ <hibernate-mapping>
+ 	<class name="com.bridge.employee.Employee" table="tb_employee">
+ 		<!-- id值 -->
+ 		<id name="id" column="id" type="int">
+			<generator class="native"/>
+		</id>
+		<!-- 姓名 -->
+		<property name="username" type="string" length="45">
+			<column name="username"/>
+		</property>
+		<!-- 性别 -->
+		<property name="sex" type="string" length="45">
+			<column name="sex"/>
+		</property>
+		<!-- 年齡 -->
+		<property name="age" type="string" length="45">
+			<column name="age"/>
+		</property>
+		<!-- 电话 -->
+		<property name="tel" type="string" length="45">
+			<column name="tel"/>
+		</property>
+		<!-- 职务 -->
+		<property name="duty" type="string" length="45">
+			<column name="duty"/>
+		</property>
+		<!-- 密码 -->
+		<property name="password" type="string" length="45">
+			<column name="password"/>
+		</property>
+		<!-- 部门 -->
+		<property name="sector" type="string" length="45">
+			<column name="sector"/>
+		</property>
+ 	</class>
+ </hibernate-mapping>

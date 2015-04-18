@@ -1,0 +1,99 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#333
+	
+}
+#top_menu{
+	height:50px;
+	
+}
+#top_menu_logo{
+	float:left; 
+	width:250px;
+	line-height:50px;
+}
+#top_menu_logo img{
+	width:250px;
+	height:50px;
+}
+#top_menu_nav{
+	cursor: pointer;
+	height:50px;
+	overflow:hidden;
+	width:600px;
+	background-color:#c0c0c0;
+
+}
+#top_menu_nav ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	margin-left:auto;
+	margin-top:auto;
+
+}
+#top_menu_nav ul li{
+	text-align:center;
+	float:left;
+	line-height:50px;
+	width:150px;
+}
+#reg{
+	display:none;
+}
+#login{
+	width:200px;
+	display:none;
+}
+#map{
+	width:780px;
+	height:450px;
+	border: thin;
+	display:none;
+}
+#map_serch{
+	
+	
+}
+#map_result{
+	width:150px;
+	float:left;
+}
+#map_serch div.form{
+	align:center;
+}
+#container{
+	float:right;
+	width:590px;
+	height:380px;
+	
+}
+#employee{
+	width:780px;
+	display:none;
+}
+#employee_login{
+	padding:5px;
+}
+#employee_info{
+	float:left;
+}
+#employee_reg{
+	padding:5px;
+}
+#employee_dis{
+	float:left;
+	width:390px;
+	border:solid 1px #000000;
+}
+#file{
+	display:none;
+}
+#file_type{
+	float:left; 
+}
+#file_upload{
+	float:left; 
+}

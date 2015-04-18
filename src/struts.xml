@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.objectFactory" value="struts" />
+	<package name="file" extends="struts-default" >
+		<action name="fileUploadAction" class="com.bridge.action.FileUploadAction">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="login" class="com.bridge.action.LoginAction">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="reg" class="com.bridge.action.RegAction">
+			<result name="success">confirm.jsp</result>
+		</action>
+		<action name="QueryEmployee" class="com.bridge.action.QueryAction">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="QuerySelf" class="com.bridge.action.SelfAction">
+			<result name="success">update.jsp</result>
+		</action>
+		<action name="UpdateEmployee" class="com.bridge.action.UpdateAction">
+			<result name="success">index.jsp</result>
+		</action>
+		
+	</package>
+</struts>
